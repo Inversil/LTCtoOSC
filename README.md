@@ -21,6 +21,7 @@ The setup in this github serves to alleviate all of these issues.
 
 ## Disadvantages of using this over the Default implementation.
 - The audio of the video is not streamed from touch designer into Ableton Live, so you need to manually extract and import the video audio if you want to edit it in your project.
+- You cannot cut/edit or export the video inside live.
 - You need to save the touch designer project alongside the live project, and then open it manually when you get to work.
 
 
