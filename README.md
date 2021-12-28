@@ -8,7 +8,7 @@ This is based on a Max for Live LTC decoder (https://github.com/ArtScienceLab/M4
 ## How to use
 1. Get an LTC audio file from https://elteesee.pehrhovey.net/. The sample rate should match the sample rate you use in your live project, so if you produce at 48k; you will get the best results also using a 48k audio file. Make sure the timecode audio starts at 1 Hour, which is the industry standard.
 2. Make an audio track that has the LTC audio, and make sure it is un-warped.
-3. Put this device on that audio track and pute the output audio
+3. Put this device on that audio track and mute the output audio
 
 The M4L device will now keep track of the time in your project regardless of tempo modulations and send this time info to port 42169.
 
