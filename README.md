@@ -7,6 +7,7 @@ This is based on a Max for Live LTC decoder (https://github.com/ArtScienceLab/M4
 
 ## So.. Why should I use this?
 The original [Ableton Live Guide for using video on windows](https://help.ableton.com/hc/en-us/articles/209773125-Using-Video) recommends Windows users to download and instal  Demuxer software that hasn't been updated since 2013 and convert videos into the right format using an out of date software tool from 2003. 
+
 From a pro user standpoint, this workflow is frankly unacceptable. 
 Becuase of the Ableton's neglect of video on windows over the years, this implementation has become highly unstable to the point that a lot of live users no longer bother to use it. 
 Touch Designer's video playback can be completely GPU accelerated and should run super quick alongside most Live projects.
