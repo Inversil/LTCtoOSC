@@ -39,6 +39,7 @@ In order to play back video to this time, we use a free node-based vfx creation 
 ### OSC timecode for video playback using TouchDesigner
 1. When you load up the TouchDesigner project the OSC in CHOP should automatically be activated, if not you can turn it on by switching on the "Active" button.
 2. Load your video into the "VIDEO" TOP, make sure not to change any of the other settings.
+3. To open your video in a separate window, go to the "window1" OP and click "Open as Separate window" in the popup menu.
 
 You can change some settings in the "SETTINGS" CHOP.
 - "framerate" should be the same as the framerate in your LTC file (keep at 30, it's hardcoded in M4L for now)
