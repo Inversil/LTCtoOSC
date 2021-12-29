@@ -74,3 +74,5 @@ Once set up the video synchronization is super fast and consistent. You can even
 
 Maybe instead of requiring people to install touch designer, we can make a version that can run in Touch Player, which would be more light weight.
 Maybe instead of using OSC and Touch Designer, perhaps in the future we can make M4L play video alongside the LTC decoder directly.. but that's a project for someone else... or I'll pick it up...... one day........
+
+-- made by Inverted Silence & Vlams
