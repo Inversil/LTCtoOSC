@@ -3,6 +3,9 @@ This is a **M4L plugin** with a **companion touchdesigner project** that you can
 
 This is based on a Max for Live LTC decoder (https://github.com/ArtScienceLab/M4L_LTC_Reader), which itself is based on code provided by David Butler / The Impersonal Stereo (https://github.com/impsnldavid/imp.ltc/tree/develop) (no longer an active repository)
 
+This guide looks kind of long, but that's mostly because it's made for people not familiar with any of this software.
+In reality, this will probably take roughly 10 minutes to get up and running.
+
 ![Plugin 1](https://cdn.discordapp.com/attachments/422835897332137984/925476063746867220/unknown.png)
 
 ## So.. Why should I use this?
@@ -26,9 +29,6 @@ The setup in this github serves as a *complete replacement* workflow, which alle
 - You need to save the touch designer project alongside the live project, and then open it manually when you get to work.
 
 ## How to use
-
-This guide looks kind of long, but that's mostly because it's made for people not familiar with any of this software.
-In reality, this will probably take roughly 10 minutes to get up and running.
 
 To start, click the code button at the top of this page and hit "download as zip" or [download the latest release](https://github.com/Inversil/LTCtoOSC-TouchDesigner/releases)
 
