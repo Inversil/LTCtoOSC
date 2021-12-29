@@ -64,7 +64,7 @@ You can change some settings in the "SETTINGS" CHOP.
 - "offset" offsets the video from the incoming OSC timecode, use this if your audio is not in sync with the video.
 - "error" changes the error margin for the internal framerate counter. If the difference in time between the OSC values and the internal counter go above this threshold, the internal counter snaps to the current OSC value.
 
-If you're unfamiliar with touch designer - here is a visual guide about which notes you should interact with to get what you need:
+If you're unfamiliar with touch designer - here is a visual guide about which nodes you should interact with to get what you need:
 
 ![Touch Designer Guide](https://cdn.discordapp.com/attachments/202817364264222720/925547803588063262/eeee.png)
 
