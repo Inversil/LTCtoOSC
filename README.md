@@ -28,7 +28,9 @@ The setup in this github serves to alleviate all of these issues.
 
 ## How to use
 ### Ableton LTC to OSC
-1. Get an LTC audio file from https://elteesee.pehrhovey.net/. The sample rate should match the sample rate you use in your live project, so if you produce at 48k; you will get the best results also using a 48k audio file. The length of the LTC audio needs to at least exceed the length of your video. Other than that, make sure the timecode audio starts at 1 Hour, which is the industry standard.
+1. Get an LTC audio file from https://elteesee.pehrhovey.net/. The sample rate should match the sample rate you use in your live project, so if you produce at 48k; you will get the best results also using a 48k audio file. The length of the LTC audio needs to at least exceed the length of your video. Other than that, make sure the timecode audio starts at 1 Hour, which is the industry standard. A bit depth of 8 works perfectly and saves storage space.
+Even though the video feed is synchronized at 30fps, it does not need to be a 30fps video. The touch designer project will automatically interpolate the OSC signal and support videos with any frame rate.
+
 2. Inside Live, create an audio track that has the LTC audio file in it. Make sure the sample is unwarped.
 3. Put this device on that audio track and turn down the track volume to -inf.
 
@@ -37,15 +39,16 @@ The M4L device will now keep track of the time in your project regardless of tem
 In order to play back video to this time, we use a free node-based vfx creation tool called touch designer, which you can get [here](https://derivative.ca/)
 
 ### OSC timecode for video playback using TouchDesigner
-1. When you load up the TouchDesigner project the OSC in CHOP should automatically be activated, if not you can turn it on by switching on the "Active" button.
-2. Load your video into the "VIDEO" TOP, make sure not to change any of the other settings.
+1. When you load up the TouchDesigner project the "oscin1" CHOP / node should automatically be activated, if not you can turn it on by clicking on it and toggling the "Active" button.
+2. Load your video into the "VIDEO" module TOP, make sure not to change any of the other settings.
 3. To open your video in a separate window, go to the "window1" OP and click "Open as Separate window" in the popup menu.
 
 You can change some settings in the "SETTINGS" CHOP.
 - "framerate" should be the same as the framerate in your LTC file (keep at 30, it's hardcoded in M4L for now)
 - "offset" offsets the video from the incoming OSC timecode, use this if your audio is not in sync with the video.
-- "error" changes the error margin for the internal framerate counter. if the difference in time between the OSC values and the internal counter go above this threshold, the internal counter snaps to the current OSC value.
+- "error" changes the error margin for the internal framerate counter. If the difference in time between the OSC values and the internal counter go above this threshold, the internal counter snaps to the current OSC value.
 
 ## TODO
 
+Maybe instead of requiring people to install touch designer, we can make a version that can run in Touch Player, which would be more light weight.
 Maybe instead of using OSC and Touch Designer, perhaps in the future we can make M4L play video alongside the LTC decoder directly.. but that's a project for someone else... or I'll pick it up...... one day........
