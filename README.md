@@ -47,6 +47,8 @@ You can change some settings in the "SETTINGS" CHOP.
 - "offset" offsets the video from the incoming OSC timecode, use this if your audio is not in sync with the video.
 - "error" changes the error margin for the internal framerate counter. If the difference in time between the OSC values and the internal counter go above this threshold, the internal counter snaps to the current OSC value.
 
+If you're unfamiliar with touch designer - here is a visual guide about which notes you should interact with to get what you need:
+
 ![Touch Designer Guide](https://cdn.discordapp.com/attachments/202817364264222720/925543265757970462/touch_desinger.png)
 
 Once set up the video synchronization is super fast and consistent. You can even use the touch designer video output as your webcam, and stream live and the video feed over discord simultaniously.
