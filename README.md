@@ -27,8 +27,14 @@ The setup in this github serves to alleviate all of these issues.
 
 ## How to use
 ### Ableton LTC to OSC
-1. Get an LTC audio file from https://elteesee.pehrhovey.net/. The sample rate should match the sample rate you use in your live project, so if you produce at 48k; you will get the best results also using a 48k audio file. The length of the LTC audio needs to at least exceed the length of your video. Other than that, make sure the timecode audio starts at 1 Hour, which is the industry standard. A bit depth of 8 works perfectly and saves storage space.
-Even though the video feed is synchronized at 30fps, it does not need to be a 30fps video. The touch designer project will automatically interpolate the OSC signal and support videos with any frame rate.
+1. Get an LTC audio file from https://elteesee.pehrhovey.net/. 
+- The **sample rate should match the sample rate you use in your live project**, so if you produce at 48k; you will get the best results also using a 48k audio file. 
+- The default frame rate in the Touch Deisgner project is **30FPS**, so it is recommended to go with that.
+- The length of the LTC audio needs to at least exceed the length of your video. 
+- Make sure the timecode audio **starts at 1 Hour**
+- **A bit depth of 8** works perfectly and saves storage space.
+
+Even though the video feed is synchronized with the max device 30fps, it does not need to be a 30fps video. The touch designer project will automatically interpolate the OSC signal and support videos with any frame rate.
 
 2. Inside Live, create an audio track that has the LTC audio file in it. Make sure the sample is unwarped.
 3. Put this device on that audio track and turn down the track volume to -inf.
