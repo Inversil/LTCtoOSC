@@ -35,7 +35,7 @@ To start, click the code button at the top of this page and hit "download as zip
 ### Ableton LTC to OSC
 1. Get an LTC audio file from https://elteesee.pehrhovey.net/. 
 - The **sample rate should match the sample rate you use in your live project**, so if you produce at 48k; you will get the best results also using a 48k audio file. 
-- The frame rate the max device expects is **30FPS**, so it is recommended to go with that regardless of your video frame rate.
+- Regardless of your video frame rate, the frame rate of the LTC should be **30FPS**
 - The length of the LTC audio needs to at least exceed the length of your video. 
 - Make sure the timecode audio **starts at 1 Hour**
 - **A bit depth of 8** works perfectly and saves storage space.
