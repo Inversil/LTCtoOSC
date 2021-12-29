@@ -47,6 +47,8 @@ You can change some settings in the "SETTINGS" CHOP.
 - "offset" offsets the video from the incoming OSC timecode, use this if your audio is not in sync with the video.
 - "error" changes the error margin for the internal framerate counter. If the difference in time between the OSC values and the internal counter go above this threshold, the internal counter snaps to the current OSC value.
 
+![Touch Designer Guide](https://cdn.discordapp.com/attachments/202817364264222720/925543265757970462/touch_desinger.png)
+
 ## TODO
 
 Maybe instead of requiring people to install touch designer, we can make a version that can run in Touch Player, which would be more light weight.
