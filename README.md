@@ -6,14 +6,14 @@ This is based on a Max for Live LTC decoder (https://github.com/ArtScienceLab/M4
 ![Plugin 1](https://cdn.discordapp.com/attachments/422835897332137984/925476063746867220/unknown.png)
 
 ## So.. Why should I use this?
-The original [Ableton Live Guide for using video on windows](https://help.ableton.com/hc/en-us/articles/209773125-Using-Video) recommends Windows users to download and instal  Demuxer software that hasn't been updated since 2013 and convert videos into the right format using an out of date software tool from 2003. 
+The original [Ableton Live Guide for using video on windows](https://help.ableton.com/hc/en-us/articles/209773125-Using-Video) recommends Windows users to download and install  Demuxer software that hasn't been updated since 2013. When this doesn't work, they ask users to convert videos into the right format using a piece of software from 2003. 
 
 From a pro user standpoint, this workflow is frankly unacceptable. 
-Becuase of the Ableton's neglect of video on windows over the years, this implementation has become highly unstable to the point that a lot of live users no longer bother to use it. 
+Becuase of the Ableton's neglect of video on windows over the years, this implementation has become highly unstable.
 Touch Designer's video playback can be completely GPU accelerated and should run super quick alongside most Live projects.
 
-Syncing Video using third party tools has been tricky because Ableton Live does not keep it's own timecode. 
-The Live Object model only exposes midi timecode, which can grow inaccurate when the project tempo is modulated. 
+Syncing Video using third party tools has been tricky because Ableton Live does not keep it's own timecode (this is, the playback time of the playhead inside the arrangement view in milliseconds). 
+The Live Object model exposes play back time; but this is midi timecode, which becomes completely inaccurate when the project tempo is modulated. 
 
 Then there are VST solutions like [VidplayVST](https://vidplayvst.com/index.htm), but even this cannot sync properly with a tempo modulated live timeline. 
 The author of this plugin writes that this cannot be fixed "due to a limitation of the plugin-in interface provided by this daw", but it's actually because live does not keep SMPTE internally *at all*.
@@ -24,7 +24,6 @@ The setup in this github serves to alleviate all of these issues.
 - The audio of the video is not streamed from touch designer into Ableton Live, so you need to manually extract and import the video audio if you want to edit it in your project.
 - You cannot cut/edit or export the video inside live.
 - You need to save the touch designer project alongside the live project, and then open it manually when you get to work.
-
 
 ## How to use
 ### Ableton LTC to OSC
