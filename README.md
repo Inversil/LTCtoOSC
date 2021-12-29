@@ -26,6 +26,12 @@ The setup in this github serves to alleviate all of these issues.
 - You need to save the touch designer project alongside the live project, and then open it manually when you get to work.
 
 ## How to use
+
+This guide looks kind of long, but that's mostly because it's made for people not familiar with any of this software.
+In reality, this will probably take roughly 10 minutes to get up and running.
+
+To start, click the code button at the top of this page and hit "download as zip" or [download the latest release]()
+
 ### Ableton LTC to OSC
 1. Get an LTC audio file from https://elteesee.pehrhovey.net/. 
 - The **sample rate should match the sample rate you use in your live project**, so if you produce at 48k; you will get the best results also using a 48k audio file. 
