@@ -47,9 +47,11 @@ Even though the video feed is synchronized with the max device 30fps, it does no
 
 The M4L device will now keep track of the time in your project regardless of tempo modulations and send this time info to port 42169.
 
-In order to play back video to this time, we use a free node-based vfx creation tool called touch designer, which you can get [here](https://derivative.ca/)
-
 ### OSC timecode for video playback using TouchDesigner
+
+In order to play back video alongside this companion device, we use a free node-based vfx creation tool called touch designer, which you can get [here](https://derivative.ca/)
+You will probably need to sign up for an account to use the trial version of the program, but it should last a lifetime.
+
 1. When you load up the TouchDesigner project the "oscin1" CHOP / node should automatically be activated, if not you can turn it on by clicking on it and toggling the "Active" button.
 2. Load your video into the "VIDEO" module TOP, make sure not to change any of the other settings.
 3. To open your video in a separate window, go to the "window1" OP and click "Open as Separate window" in the popup menu. It should look essentially the same as a native video inside of live. To open the touch designer UI again, hit escape on the video window.
