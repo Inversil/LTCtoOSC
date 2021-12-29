@@ -40,7 +40,7 @@ To start, click the code button at the top of this page and hit "download as zip
 - Make sure the timecode audio **starts at 1 Hour**
 - **A bit depth of 8** works perfectly and saves storage space.
 
-Even though the video feed is synchronized with the max device 30fps, it does not need to be a 30fps video. The touch designer project will automatically interpolate the OSC signal and support videos with any frame rate.
+Even though the video feed is synchronized with the max device at 30fps, you do not have to use a 30fps video. The touch designer project will automatically interpolate the OSC signal and support videos with any frame rate.
 
 2. Inside Live, create an audio track that has the LTC audio file in it. Make sure the sample is unwarped.
 3. Put this device on that audio track and turn down the track volume to -inf.
