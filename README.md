@@ -18,7 +18,7 @@ The Live Object model exposes play back time; but this is midi timecode, which b
 Then there are VST solutions like [VidplayVST](https://vidplayvst.com/index.htm), but even this cannot sync properly with a tempo modulated live timeline. 
 The author of this plugin writes that this cannot be fixed "due to a limitation of the plugin-in interface provided by this daw", but it's actually because live does not keep SMPTE internally *at all*.
 
-The setup in this github serves to alleviate all of these issues. This is a guide to set up a more accurate *complete replacement* workflow to the one offered inside Live.
+The setup in this github serves as a *complete replacement* workflow, which alleviates most of the video issues found inside live.
 
 ## Disadvantages of using this over the Default implementation.
 - The audio of the video is not streamed from touch designer into Ableton Live, so you need to manually extract and import the video audio if you want to edit it in your project.
