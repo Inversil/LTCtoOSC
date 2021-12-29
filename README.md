@@ -61,7 +61,7 @@ You can change some settings in the "SETTINGS" CHOP.
 
 If you're unfamiliar with touch designer - here is a visual guide about which notes you should interact with to get what you need:
 
-![Touch Designer Guide](https://cdn.discordapp.com/attachments/202817364264222720/925543265757970462/touch_desinger.png)
+![Touch Designer Guide](https://cdn.discordapp.com/attachments/202817364264222720/925547803588063262/eeee.png)
 
 Once set up the video synchronization is super fast and consistent. You can even use the touch designer video output as your webcam, and stream live and the video feed over discord simultaniously.
 
