@@ -49,7 +49,7 @@ The M4L device will now keep track of the time in your project regardless of tem
 
 ### OSC timecode for video playback using TouchDesigner
 
-In order to play back video alongside this companion device, we use a free node-based vfx creation tool called touch designer, which you can get [here](https://derivative.ca/)
+In order to play back video alongside this companion device, we use a free node-based vfx creation tool called touch designer, which you can get [here](https://derivative.ca/).
 You will probably need to sign up for an account to use the trial version of the program, but it should last a lifetime.
 
 1. When you load up the TouchDesigner project the "oscin1" CHOP / node should automatically be activated, if not you can turn it on by clicking on it and toggling the "Active" button.
