@@ -54,7 +54,7 @@ You will probably need to sign up for an account to use the trial version of the
 
 1. Open the "OSC TIMECODE VIDEO.toe" in TouchDesigner.
 2. Once in the project, the "oscin1" CHOP / node should automatically be activated. If not, you can turn it on by clicking on it and toggling the "Active" button.
-3. Load your video into the "VIDEO" module TOP, make sure not to change any of the other settings.
+3. Load your video into the "VIDEO" module up top, but make sure not to change any of the other settings.
 4. To open your video in a separate window, go to the "window1" OP and click "Open as Separate window" in the popup menu. It should look essentially the same as a native video inside of live. To open the touch designer UI again, hit escape on the video window.
 
 You can change some settings in the "SETTINGS" CHOP.
