@@ -60,7 +60,7 @@ You will probably need to sign up for an account to use the trial version of the
 ### That's it! You're good to go
 
 You can now play the video from within live. The LTC audio clip represents the time of the video in your touchdesigner window.
-If the video doesn't play, that might be because it's corrupt/invalid format; or because touch desigenr is paused. Make sure it is playing!
+If the video doesn't play, that might be because it's corrupt/invalid format; or because touch designer is paused. Make sure it is playing!
 
 You can change some settings in the "SETTINGS" CHOP.
 - "framerate" should be the same as the framerate in your LTC file (keep at 30, it's hardcoded in M4L for now)
