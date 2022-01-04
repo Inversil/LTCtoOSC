@@ -24,7 +24,7 @@ The author of this plugin writes that this cannot be fixed "due to a limitation 
 The setup in this github serves as a *complete replacement* workflow, which alleviates most of the video issues found inside live.
 
 ## Disadvantages of using this over the Default implementation.
-- The audio of the video is not streamed from touch designer into Ableton Live, so you need to manually extract and import the video audio if you want to edit it in your project. If you have an MP4 video, extracting audio should only take a few clicks in Audacity, Audition, or Resonic Pro.
+- The audio of the video is not streamed from touch designer into Ableton Live, so you need to manually extract and import the video audio if you want to edit it in your project. (If you have an MP4 video, extracting audio should only take a few clicks in Audacity, Audition, or Resonic Pro.)
 - You cannot cut/edit or export the video inside live.
 - You need to save the touch designer project alongside the live project, and then open it manually when you get to work.
 
