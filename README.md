@@ -19,7 +19,7 @@ Syncing Video using third party tools has been tricky because Ableton Live does 
 The Live Object model exposes play back time; but this is midi timecode, which becomes completely inaccurate when the project tempo is modulated. 
 
 Then there are VST solutions like [VidplayVST](https://vidplayvst.com/index.htm), but even this cannot sync properly with a tempo modulated live timeline. 
-The author of this plugin writes that this cannot be fixed "due to a limitation of the plugin-in interface provided by this daw", but it's actually because live does not keep SMPTE internally *at all*.
+The author of this plugin writes that this cannot be fixed "due to a limitation of the plugin-in interface provided by this daw", but it's actually because live does not expose SMPTE *at all*.
 
 The setup in this github serves as a *complete replacement* workflow, which alleviates most of the video issues found inside live.
 
