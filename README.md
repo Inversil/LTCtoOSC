@@ -23,6 +23,10 @@ The author of this plugin writes that this cannot be fixed "due to a limitation 
 
 The setup in this github serves as a *complete replacement* workflow, which alleviates most of the video issues found inside live.
 
+## Disadvantages of using this over the Default implementation.
+- The audio of the video is not streamed from touch designer into Ableton Live, so you need to manually extract and import the video audio if you want to edit it in your project. (If you have an MP4 video, extracting audio should only take a few clicks in Audacity, Audition, or Resonic Pro.)
+- You cannot export the video inside live.
+
 ## How to use
 
 To start, click the code button at the top of this page and hit "download as zip" or [download the latest release](https://github.com/Inversil/LTCtoOSC-TouchDesigner/releases)
@@ -67,10 +71,6 @@ For advanced tweaking, you can change some settings in the "SETTINGS" CHOP.
 ![Touch Designer Guide](https://cdn.discordapp.com/attachments/202817364264222720/925547803588063262/eeee.png)
 
 Once set up the video synchronization is super fast and consistent. You can even use the touch designer video output as your webcam, and stream live and the video feed over discord simultaniously.
-
-## Disadvantages of using this over the Default implementation.
-- The audio of the video is not streamed from touch designer into Ableton Live, so you need to manually extract and import the video audio if you want to edit it in your project. (If you have an MP4 video, extracting audio should only take a few clicks in Audacity, Audition, or Resonic Pro.)
-- You cannot export the video inside live.
 
 ## TODO
 
