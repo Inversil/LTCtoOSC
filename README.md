@@ -4,7 +4,7 @@ This is a **M4L plugin** with a **companion touchdesigner project** that you can
 This is based on a Max for Live LTC decoder (https://github.com/ArtScienceLab/M4L_LTC_Reader), which itself is based on code provided by David Butler / The Impersonal Stereo (https://github.com/impsnldavid/imp.ltc/tree/develop) (no longer an active repository)
 
 This guide looks kind of long, but that's mostly because it's made for people not familiar with any of this software.
-In reality, this will probably take roughly 10 minutes to get up and running.
+In reality this will probably take less than 10 minutes to get up and running.
 
 ![Plugin 1](https://user-images.githubusercontent.com/32222093/194161871-3de73bb1-d140-4859-8495-787ec406ff00.png)
 
