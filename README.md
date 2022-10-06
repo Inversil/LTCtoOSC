@@ -27,6 +27,11 @@ The setup in this github serves as a *complete replacement* workflow, which alle
 - The audio of the video is not streamed from touch designer into Ableton Live, so you need to manually extract and import the video audio if you want to edit it in your project. (If you have an MP4 video, extracting audio should only take a few clicks in Audacity, Audition, or Resonic Pro.)
 - You cannot export the video inside live.
 
+## Advantages of using this over the default implementation
+- It's modern: Touchdesigner's video is really fast and it decodes video on the GPU
+- It's reliable: I haven't had it crash a single time.
+- And security: If the video goes bad, the music still works.
+
 ## How to use
 
 To start, click the code button at the top of this page and hit "download as zip" or [download the latest release](https://github.com/Inversil/LTCtoOSC-TouchDesigner/releases)
