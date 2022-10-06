@@ -26,6 +26,7 @@ The setup in this github serves as a *complete replacement* workflow, which alle
 - It's modern: Touchdesigner's video is really fast and it decodes video on the GPU
 - It's reliable: I haven't had it crash a single time.
 - And security: If the video goes bad, the music still works.
+- Unlike all other third party solutions, this method properly syncs video with tempo modulated music.
 
 ## How to use
 
