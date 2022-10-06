@@ -53,7 +53,7 @@ In order to play back video alongside this companion device, we use a free node-
 You will probably need to sign up for an account to use the trial version of the program, but it should last a lifetime.
 
 1. Open "OSC TIMECODE VIDEO.toe" in TouchDesigner.
-2. Click the big button that says "Click Here" and the video should go full screen.
+2. Click the big button that says "Click Here" and the video window should pop up, hiding the rest of the interface.
 3. Drag and drop a video file onto the drag and drop field within the plugin to load it up.
 
 ### That's it! You're good to go
