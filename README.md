@@ -3,9 +3,6 @@ This is a **M4L plugin** with a **companion touchdesigner project** that you can
 
 This is based on a Max for Live LTC decoder (https://github.com/ArtScienceLab/M4L_LTC_Reader), which itself is based on code provided by David Butler / The Impersonal Stereo (https://github.com/impsnldavid/imp.ltc/tree/develop) (no longer an active repository)
 
-This guide looks kind of long, but that's mostly because it's made for people not familiar with any of this software.
-In reality this will probably take less than 10 minutes to get up and running.
-
 ![Plugin 1](https://user-images.githubusercontent.com/32222093/194161871-3de73bb1-d140-4859-8495-787ec406ff00.png)
 
 ## So.. Why should I use this?
@@ -15,19 +12,17 @@ From a pro user standpoint, this workflow is frankly unacceptable.
 Becuase of the Ableton's neglect of video on windows over the years, this implementation has become highly unstable.
 Touch Designer's video playback can be completely GPU accelerated and should run super quick alongside most Live projects.
 
-Syncing Video using third party tools has been tricky because Ableton Live does not keep it's own timecode (this is, the playback time of the playhead inside the arrangement view in milliseconds). 
 The Live Object model exposes play back time; but this is midi timecode, which becomes completely inaccurate when the project tempo is modulated. 
-
 Then there are VST solutions like [VidplayVST](https://vidplayvst.com/index.htm), but even this cannot sync properly with a tempo modulated live timeline. 
 The author of this plugin writes that this cannot be fixed "due to a limitation of the plugin-in interface provided by this daw", but it's actually because live does not expose SMPTE *at all*.
 
 The setup in this github serves as a *complete replacement* workflow, which alleviates most of the video issues found inside live.
 
-## Disadvantages of using this over the Default implementation.
+### Disadvantages of using this over the Default implementation.
 - The audio of the video is not streamed from touch designer into Ableton Live, so you need to manually extract and import the video audio if you want to edit it in your project. (If you have an MP4 video, extracting audio should only take a few clicks in Audacity, Audition, or Resonic Pro.)
 - You cannot export the video inside live.
 
-## Advantages of using this over the default implementation
+### Advantages of using this over the default implementation
 - It's modern: Touchdesigner's video is really fast and it decodes video on the GPU
 - It's reliable: I haven't had it crash a single time.
 - And security: If the video goes bad, the music still works.
