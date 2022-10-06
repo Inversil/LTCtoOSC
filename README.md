@@ -54,7 +54,7 @@ You will probably need to sign up for an account to use the trial version of the
 
 1. Open "OSC TIMECODE VIDEO.toe" in TouchDesigner.
 2. Click the big button that says "Click Here" and the video window should pop up, hiding the rest of the interface.
-3. Drag and drop a video file onto the drag and drop field within the plugin to load it up.
+3. Drag and drop a video file onto the drag and drop field within the max device to load it up inside touch designer.
 
 ### That's it! You're good to go
 
